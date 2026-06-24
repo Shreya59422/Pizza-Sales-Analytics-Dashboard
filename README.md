@@ -14,6 +14,20 @@ The project includes SQL-based analysis and an interactive Excel dashboard for v
 - Charts & Data Visualization
 
 ---
+## Database Setup
+
+The dataset was imported and analyzed using PostgreSQL.
+
+The project includes:
+- setup.sql → Table creation script
+- pizza_sales_analysis.sql → Business analysis queries
+- pizza_sales_clean.csv → Dataset used for analysis
+
+PostgreSQL was used to perform:
+- Revenue analysis
+- Trend analysis
+- Product performance analysis
+- Customer behavior analysis
 
 ## Key Performance Indicators (KPIs)
 - Total Revenue: $817,860
@@ -52,6 +66,18 @@ The project includes SQL-based analysis and an interactive Excel dashboard for v
 - Brie Carre Pizza was the lowest-selling pizza.
 
 ---
+## Project Workflow
+
+CSV Dataset
+      ↓
+PostgreSQL Database
+      ↓
+SQL Analysis
+      ↓
+Excel Pivot Tables
+      ↓
+Interactive Dashboard
+
 
 ##  Dashboard Preview
 ![Pizza Sales Dashboard](pizza_sales_dashboard.png)
